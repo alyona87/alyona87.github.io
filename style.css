@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #dedede;
+    margin: 0 auto;
+}
+.navigation {
+    width: 858px;
+    height: 95px;
+    background-color: #86c351;
+    /*display: table;*/
+    margin: auto;
+}
+
+.navigation ul li {
+    /*display: inline-block;*/
+    float: left;
+    position: relative;
+}
+.navigation ul li a{
+    text-align: center;
+    vertical-align: center;
+    font-family: "Tahoma";
+    color: #fff;
+    padding: 0 0;
+    /*font-family: ;*/
+    text-decoration: none;
+    line-height: 18px;
+    display: block;
+    height: 95px;
+    width: 143px;
+}
+.navigation ul li a:hover{
+    display: block;
+    height: 95px;
+    width: 143px;
+    background: rgba(0, 0, 0, 0.08);
+    text-decoration: underline;
+        
+}
+.navigation .dropdown{
+    position: absolute;
+    top: 100%;
+    width: 143px;
+    background: #86c351;
+    display: none;
+}
+.navigation li:hover .dropdown{
+    display: block;
+}
+.main {
+    width: 1152px;
+    margin: 0 auto;
+    background: #eeeeee;
+    }
+
+.header {
+    width: 1152px; 
+    height: 260px;
+    background:  #86c351;
+    /*overflow: hidden;
+    box-sizing: border-box;
+    white-space: nowrap;*/
+}
+
+.headerinfo {
+    width: 1152px;
+    height: 165px;
+    display: table;
+    overflow: hidden;
+    box-sizing: border-box;
+    white-space: nowrap;
+    background: #ffffff;
+}
+
+.headername {
+    width: 384px;
+    height: 165px;
+    background: url(style/name.png) #ffffff no-repeat 64px 50px;
+    display: table-cell;
+    overflow: hidden;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.headermale {
+    width: 384px;
+    height: 165px;
+    background: url(style/mail.png) #ffffff no-repeat 10% 54%;
+    display: table-cell;
+    overflow: hidden;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.headerpost {
+    margin-top: 79px;
+    margin-left: 15px;
+}
+
+.headerpost a{
+    text-decoration: none;
+    font-family: "Tahoma";
+    font-size: 24;
+    color: #86c351;
+    margin: inherit;
+    padding: 5px 0px 5px 50px;
+}
+
+.headerlogo {
+    width: 384px;
+    height: 165px;
+    background: url(style/Logo.png) #ffffff no-repeat 45% 50%;
+    display: table-cell;
+    overflow: visible;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+
+.headermenu {
+    width: 1152px;
+    height: 95px;
+    background: #86c351;
+    white-space: nowrap;
+}
+
+.contendpage {
+    width: 1152px;
+    height: 1627px;
+    background: #efefef;
+}
+
+.plashka1 {
+    width: 1152px;
+    height: 49px;
+    background: #ffffff;    
+}
+
+.format {
+    width: 1152px;
+    height: 1578px;
+    display: table;
+}
+
+.plashka2 {
+    width: 64px;
+    height: 1578px;
+    background: #ffffff; 
+    display: table-cell;
+}
+
+.sitecontent {
+    width: 1024px;
+    height: 1578px;
+    background:#dedede; 
+    display: table-cell;
+}
+
+.plashka3 {
+    width: 1024px;
+    height: 25px;
+}
+
+.contenttitle {
+    width: 1024px;
+    height: 63px;
+    background: #cbcbcb;
+    font-size: 40pt;
+    font-family: "Tahoma";
+    color: #ffffff;
+}
+
+.contenttext {
+    width: 1024px;
+    height: 1490px;
+}
+
+.contentimage {
+    margin-right: 35px;
+    margin-top: 41px;
+}
+
+.contenttext p {
+    margin: 30px 35px;
+    font-family: "Tahoma";
+    color: 000000;
+    font-size: 18pt;
+    line-height: 1.5;
+}
+
+.footer {
+    width: 1152px;
+    height: 208px;
+    background: #dddddd;
+    display: table;
+    vertical-align: middle;
+    font-family: "Tahoma";
+}
+
+.sitemap {
+    padding-left: 64px;
+    vertical-align: middle;
+    text-decoration-color: white;
+    font-family: "Tahoma";
+    color: white;
+    width: 384px;
+    height: 208px;
+    background: #86c351;
+    display: table-cell;
+}
+
+.siteinfo {
+    padding-left: 80px;
+    vertical-align: middle;
+    text-decoration-color: white;
+    font-family: "Tahoma";
+    text-align: center;
+    color: white;
+    width: 384px;
+    height: 165px;
+    background: #86c351;
+    display: table-cell;
+}
+
+.siteadress {
+    padding: 0 64px;
+    text-decoration-color: white;
+    text-align: right;
+    vertical-align: middle;
+    font-family: "Tahoma";
+    color: white;
+    width: 384px;
+    height: 165px;
+    background: #86c351;
+    display: table-cell;
+}
+
+.textHeadername1 {
+    color: #86c351;
+    font-size: 36px;
+}
+
+.textHeadername2 {
+    color: #86c351;
+    font-size: 24px;
+}
+
+.textHeadermail {
+    color: #86c351;
+    font-size: 24px;
+}
+
+.logo {
+    padding: 0;
+}
